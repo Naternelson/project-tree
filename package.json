@@ -1,0 +1,20 @@
+{
+	"name": "project-tree",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"connect": "npm unlink project-tree && npm link"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"fs": "^0.0.1-security",
+		"minimatch": "^9.0.3"
+	},
+	"bin": {
+		"project-tree": "./index.js"
+	}
+}

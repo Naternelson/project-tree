@@ -1,0 +1,36 @@
+{
+	"project": {
+		"name": "project-tree",
+		"version": "1.0.0",
+		"description": "",
+		"main": "index.js",
+		"scripts": {
+			"test": "echo \"Error: no test specified\" && exit 1",
+			"connect": "npm unlink project-tree && npm link"
+		},
+		"keywords": [],
+		"author": "",
+		"license": "ISC",
+		"dependencies": {
+			"fs": "^0.0.1-security",
+			"minimatch": "^9.0.3"
+		},
+		"bin": {
+			"project-tree": "./index.js"
+		}
+	},
+	"structure": {
+		"index.js": "index",
+		"package-lock.json": "package-lock",
+		"package.json": "package",
+		"projectSummary.json": "projectSummary",
+		"src": {
+			"subDir": {
+				"index.tsx": {
+					"name": "index",
+					"summary": "This file contains metadata for the index.tsx file in the subDir directory.\r\nIt provides additional information about the index.tsx file, such as its purpose, dependencies, and usage.\r\n \r\n\r\n"
+				}
+			}
+		}
+	}
+}
